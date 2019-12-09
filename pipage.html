@@ -33,12 +33,42 @@
      <main class="main-doc">
        <section class="main-section" id="Introduction">
          <h2>Introduction</h2>
-	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 <p>Device name: raspberrypi <br>
+    OS: Raspbian <br>
+    User 1: pi <br>
+    User 2: sal <br>
+   </p>
        </section>
        
        <section class="main-section" id="Terminal_Commands">
          <h2>Terminal Commands</h2>
-	 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	       <p>Check Raspbian version: <code>cat /etc/os-release</code></p>
+         <p>Updating Raspbian:
+          <ul>
+            <li><code>sudo apt-get update</code></li>
+            <li><code>sudo apt-get upgrade</code></li>
+          </ul>
+         </p>
+         <p>Configure: <code>sudo ifconfig</code>           
+         </p>
+         <p>Find IP address:
+         <ul>From Pi:
+          <li><code>hostname -I</code></li>
+          <li><code>ifconfig</code></li>        
+         </ul>
+
+         <ol>From Mac:
+          <li><code>ifconfig</code></li>
+          <li><code>sudo nmap -sn xxx.xxx.x.xxx/24</code></li>        
+         </ol>
+       </p>
+        <p>SSH into Pi:
+        <ul>
+          <li><code> ssh user@devicename</code></li>
+          <li><code>ssh xxx.xxx.x.xxx -l user</code></li>
+         </ul>
+         </p>
+         <p>Load GUI desktop(on Pi): <code>startx</code></p>
        </section>
        
        <section class="main-section" id="Resources">
