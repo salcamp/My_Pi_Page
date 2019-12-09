@@ -22,8 +22,9 @@ h1 {
 	font-weight: 500;
 }
 
-.img {
-
+.navarea .img {
+	width: 3%;
+	height: auto;
 }	
 	
 .navarea {
