@@ -20,6 +20,10 @@ header {
 h1 {
 	font-size: 20px;
 	font-weight: 500;
+}
+
+.img {
+
 }	
 	
 .navarea {
@@ -68,6 +72,8 @@ hr {
 
 .side-nav {
 	grid-area: side;
+	position: fixed;
+	top: ;
 }
 
 .side-nav a {
