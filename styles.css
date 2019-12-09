@@ -83,6 +83,7 @@ hr {
 
 .container {
 	display: grid;
+	grid-template-columns: 1fr 4fr;
 	grid-template-areas: "side main";
 	grid-gap: 50px;
 }
