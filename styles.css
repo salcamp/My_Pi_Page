@@ -74,7 +74,6 @@ hr {
 .side-nav {
 	grid-area: side;
 	position: fixed;
-	top: ;
 }
 
 .side-nav a {
@@ -86,11 +85,23 @@ hr {
 	grid-area: main;
 	border-left: 1px solid #F2B139;
 	padding: 0px 10px;
+	justify-self: start;
+}
+
+.main-pics {
+	grid-area: pics;
+	justify-self: center;
+}
+
+.main-pics .img {
+	width: 100%;
+	height: auto;
 }
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 4fr;
-	grid-template-areas: "side main";
+	grid-template-columns: .5fr 2fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "side main pics";
 	grid-gap: 50px;
 }
