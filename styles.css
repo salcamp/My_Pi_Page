@@ -88,9 +88,13 @@ hr {
 	padding: 0px 10px;
 }
 
+.main-pics {
+	grid-area: pics;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 4fr;
-	grid-template-areas: "side main";
+	grid-template-areas: "side main pics";
 	grid-gap: 50px;
 }
