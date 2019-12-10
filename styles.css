@@ -73,7 +73,12 @@ hr {
 
 .side-nav {
 	grid-area: side;
-	position: fixed;
+	justify-self: center;	
+}
+
+.side-nav div {
+	position: sticky;
+	top: 20px;
 }
 
 .side-nav a {
@@ -96,6 +101,8 @@ hr {
 .main-pics .img {
 	width: 100%;
 	height: auto;
+	position: sticky;
+	top: 20px;
 }
 
 .container {
