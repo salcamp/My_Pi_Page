@@ -71,6 +71,11 @@ hr {
 	color: white;
 }
 
+.main-section li {
+	display: block;
+	text-decoration: none;
+}
+
 .side-nav {
 	grid-area: side;
 	justify-self: center;	
@@ -111,4 +116,13 @@ hr {
 	grid-template-rows: auto;
 	grid-template-areas: "side main pics";
 	grid-gap: 50px;
+}
+
+/*Style code examples*/
+pre code {
+  background-color: #0D0208;
+  color:#00FF41;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
 }
