@@ -1,2 +1,3 @@
 # My_Pi_Page
-Cheat sheet for all things Raspberry PI
+Cheat sheet/reference for all things Raspberry Pi
+
